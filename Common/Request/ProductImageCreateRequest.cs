@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace Common.Request.Manage
+namespace Common.Request
 {
     public class ProductImageCreateRequest
     {

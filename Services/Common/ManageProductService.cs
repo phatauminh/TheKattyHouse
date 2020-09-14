@@ -2,7 +2,6 @@
 using Common.Extensions;
 using Common.Messages;
 using Common.Request;
-using Common.Request.Manage;
 using Data.EF;
 using Data.Entities.Items;
 using Microsoft.AspNetCore.Http;
@@ -119,7 +118,7 @@ namespace Services.Common
             return await _context.SaveChangesAsync();
         }
 
-        public async Task<PagedResult<ProductViewModel>> GetAllPaging(GetProductPagingRequest request)
+        public async Task<PagedResult<ProductViewModel>> GetAllPaging(GetManageProductPagingRequest request)
         {
             var query = from p in _context.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.Id
