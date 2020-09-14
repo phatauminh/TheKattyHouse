@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Services.Dtos.Manage
+namespace Common.Request.Manage
 {
     public class GetProductPagingRequest : PagingRequestBase
     {

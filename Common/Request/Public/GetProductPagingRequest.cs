@@ -1,4 +1,4 @@
-﻿namespace Services.Dtos.Public
+﻿namespace Common.Request.Public
 {
     public class GetProductPagingRequest : PagingRequestBase
     {

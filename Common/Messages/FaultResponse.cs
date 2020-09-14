@@ -14,6 +14,11 @@ namespace Common.Messages
             return new FaultResponse(1001, string.Format("No ProductId {0} Found ", productId));
         }
 
+        public static FaultResponse NoImageFoundError(int imageId)
+        {
+            return new FaultResponse(1002, string.Format("No ImageId {0} Found ", imageId));
+        }
+
         public FaultResponse()
         {
         }
