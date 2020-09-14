@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Services.Dtos
+namespace Common.Request
 {
     public class PagedResult<T>
     {

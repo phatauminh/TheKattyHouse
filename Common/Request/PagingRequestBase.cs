@@ -1,4 +1,4 @@
-﻿namespace Services.Dtos
+﻿namespace Common.Request
 {
     public class PagingRequestBase
     {

@@ -1,4 +1,6 @@
-﻿namespace Services.Dtos.Manage
+﻿using Microsoft.AspNetCore.Http;
+
+namespace Common.Request.Manage
 {
     public class ProductUpdateRequest
     {
@@ -14,5 +16,6 @@
         public string SeoTitle { get; set; }
         public string SeoAlias { get; set; }
         public string LanguageId { get; set; }
+        public IFormFile ThumbnailImage { get; set; }
     }
 }

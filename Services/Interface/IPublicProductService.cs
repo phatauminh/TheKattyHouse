@@ -1,5 +1,5 @@
-﻿using Services.Dtos;
-using Services.Dtos.Public;
+﻿using Common.Request;
+using Common.Request.Public;
 using System.Threading.Tasks;
 
 namespace Services.Interface

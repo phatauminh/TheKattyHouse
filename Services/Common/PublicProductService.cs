@@ -1,12 +1,12 @@
-﻿using Data.EF;
+﻿using Common.Request;
+using Common.Request.Public;
+using Data.EF;
 using Microsoft.EntityFrameworkCore;
-using Services.Dtos;
-using Services.Dtos.Public;
 using Services.Interface;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Services.Products
+namespace Services.Common
 {
     public class PublicProductService : IPublicProductService
     {
